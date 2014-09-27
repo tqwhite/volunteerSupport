@@ -1,0 +1,10 @@
+.servicesFooter{
+	width:900px;
+	margin:0px auto;
+	margin:10px 0px;
+	color:gray;
+}
+
+.servicesFooter td{
+	text-align:center;
+}
