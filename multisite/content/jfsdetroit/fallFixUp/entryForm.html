@@ -5,8 +5,97 @@
 
 <table style='border:none;'>
 
-<tr><td>Name</td><td><input type='text' name='firstName' value='asfsad'> <input type='text' name='lastName'></td></tr>
-<tr><td>Address</td><td><input type='text' name='address'></td></tr>
+<tr><td>Client Name (first, last)</td><td><input type='text' name='firstName' style='width:200px;'> 
+<input type='text' name='lastName' style='width:200px;'></td></tr>
+<tr><td>Client Address</td><td><input type='text' name='address' style='width:400px;'></td></tr>
+
+<tr><td>City, ST Zip</td><td><input type='text' name='city' style='width:150px;'>, 
+<input type='text' name='state' style='width:30px;'> 
+<input type='text' name='zip' style='width:50px;'></td></tr>
+
+<tr><td>Does the client have pets?</td><td>
+Yes <input type='radio' name='pets' value='yes' style='width:20px;'>
+No <input type='radio' name='pets' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td colspan='2'>
+<b>The following items are being requested for this home:</b><p/>
+Please add any specifics about the winterizing windows or doors in the space provided below.
+Please remember that a a house can have no more than 5 windows winterized.
+</td></tr>
+
+<tr><td class='group'>Raking Leaves</td><td>
+Yes <input type='radio' name='leaves' value='yes' style='width:20px;'>
+No <input type='radio' name='leaves' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td class='group'>Vacuuming (client must have vacuum)</td><td>
+Yes <input type='radio' name='vacuum' value='yes' style='width:20px;'>
+No <input type='radio' name='vacuum' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td class='group'>Sweeping</td><td>
+Yes <input type='radio' name='sweeping' value='yes' style='width:20px;'>
+No <input type='radio' name='sweeping' value='no' style='width:20px;'>
+</td></tr>
+
+
+
+
+<tr><td class='group'>Indoor Window Washing</td><td>
+Yes <input type='radio' name='indoorWindowWashing' value='yes' style='width:20px;'>
+No <input type='radio' name='indoorWindowWashing' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td>If yes, how many outdoor windows?</td><td><input type='text' name='indoorWindowWashingCount' style='width:100px;'></td></tr>
+
+
+
+<tr><td class='group'>Outdoor Window Washing</td><td>
+Yes <input type='radio' name='outdoorWindowWashing' value='yes' style='width:20px;'>
+No <input type='radio' name='outdoorWindowWashing' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td>If yes, how many outdoor windows</td><td><input type='text' name='outdoorWindowWashingCount' style='width:100px;'></td></tr>
+
+
+<tr><td class='group'>Winterizing Windows</td><td>
+Yes <input type='radio' name='winterizingWindows' value='yes' style='width:20px;'>
+No <input type='radio' name='winterizingWindows' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td style='border-bottom:none;'>If yes, how many windows are being winterized</td><td style='border-bottom:none;'><input type='text' name='winterizingWindowsCount' style='width:100px;'></td></tr>
+
+<tr><td colspan='2' style='border-top:none;'>
+Please list approximate sizes, if they are oversized or picture windows, etc.<br/>
+<textarea name='winterizingWindowsInformation' style='width:500px;height:50px;'>
+</textarea>
+</td></tr>
+
+
+<tr><td class='group' style='border-bottom:none;'>Winterizing Doors</td><td style='border-bottom:none;'>
+Yes <input type='radio' name='winterizingDoors' value='yes' style='width:20px;'>
+No <input type='radio' name='winterizingDoors' value='no' style='width:20px;'>
+</td></tr>
+
+<tr><td style='border-bottom:none;'>If yes, how many doors are being winterized?</td><td style='border-bottom:none;'><input type='text' name='winterizingDoorsCount' style='width:100px;'></td></tr>
+
+<tr><td colspan='2' style='border-top:none;'>
+Please also list any additional information we should know about the doorwalls<br/>
+<textarea name='winterizingDoorsInfo' style='width:500px;height:50px;'>
+</textarea>
+</td></tr>
+
+
+
+<tr><td class='group' colspan='2'>
+Please list any other important information about the client or the items being requested<br/>
+<textarea name='clientInfo' style='width:500px;height:50px;'>
+</textarea>
+</td></tr>
+
+<tr><td class='group'>Social Worker</td><td><input type='text' name='socialWorker' style='width:200px;'></td></tr>
+
 
 </table>
 <div class='simpleButton saveData' style='width:75px;height:20px;'>save</div>

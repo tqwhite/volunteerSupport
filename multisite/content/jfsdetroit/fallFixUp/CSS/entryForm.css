@@ -1,4 +1,16 @@
-
+#entryForm{
+	font-size:12pt;
+}
 #entryForm td{
 	padding:5px 10px;
+	vertical-align:top;
+	border:1pt solid #aaa;
+	border-right:none;
+	 border-left:none;
+}
+
+
+html body.widgets_session_dispatch div div#entryForm.widgets_apps_simple_data_entry table tbody tr td.group{
+padding:15px 0px 0px 10px;
+font-weight:bold;
 }
