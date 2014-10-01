@@ -14,3 +14,5 @@ html body.widgets_session_dispatch div div#entryForm.widgets_apps_simple_data_en
 padding:15px 0px 0px 10px;
 font-weight:bold;
 }
+
+.statusDiv{color:green;font-size:14pt;font-weight:bold;}
