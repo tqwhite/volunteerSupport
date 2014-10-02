@@ -3,7 +3,8 @@ $('#entryForm').widgets_apps_simple_data_entry(
 
 saveButtonSelector:".saveData",
 parameterFolderName:"_PARAMETERS",
-parameterFileName:'simpleData.ini'
+parameterFileName:'simpleData.ini',
+statusInfoTemplate:"<span style='font-size:80%;font-weight:normal;'><%=lastName%>, <%=firstName%></span>"
 
 }
 );
